@@ -6,7 +6,17 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    if x >0 and y >0:
+        quadrant=1
+    elif x <0 and y >0:
+        quadrant=2
+    elif x >0 and y >0:
+        quadrant=3
+    elif x >0 and y >0:
+        quadrant=4
+    else:
+        quadrant="On the axis or at the origin"
+        
     print(f'Quadrant: {quadrant}')
     ########################################
     # Do not delete the return statement
