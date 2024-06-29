@@ -14,8 +14,6 @@ def main():
         quadrant=3
     elif x >0 and y >0:
         quadrant=4
-    else:
-        quadrant="On the axis or at the origin"
         
     print(f'Quadrant: {quadrant}')
     ########################################
